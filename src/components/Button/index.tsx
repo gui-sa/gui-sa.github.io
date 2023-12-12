@@ -3,7 +3,7 @@ import styles from './index.module.css'
 type buttonProps = {
     children:string,
     onClick?:()=>void,
-    usage?: 'default' | 'cta' | 'nav'
+    usage?: 'default' | 'cta' | 'nav',
     status?: false | true
 }
 
