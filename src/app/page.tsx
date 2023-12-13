@@ -4,6 +4,7 @@ import SectionDivided from '@/components/sections/SectionDivided';
 import styles from './page.module.css'
 import Navigator from '@/components/sections/Navigator/Navigator';
 import SectionCentered from '@/components/sections/SectionCententered';
+import Sobre from '@/components/sections/Sobre';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Navigator navList={0}/>
         <SectionDivided/>
         <SectionCentered/>
+        <Sobre/>
     </main>
   );
 }

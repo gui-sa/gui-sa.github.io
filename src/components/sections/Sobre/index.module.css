@@ -1,0 +1,86 @@
+.main{
+    width: auto;
+    margin: 0 120px 0 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../../public/Estrelas.png);
+    background-size: contain;
+}
+
+.background{
+    background: linear-gradient(180deg, rgba(0, 0, 28, 1) 40%, rgba(0, 0, 0, 1) 100%);
+}
+
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.paragraph{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 18px 44px 32px 44px;
+    line-height: 1.5em;
+    width: 100%;
+    max-width: 700px;
+}
+
+.inter_paragraph{
+    margin-top: 32px;
+}
+
+.title{
+    margin-top: 64px;
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.border_img{
+    width: 256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    position: absolute;
+    width: 256px;
+    left: -1vw;
+
+    -webkit-mask-image: url(../../../../public/NuvemMask.png);
+    mask-image: url(../../../../public/NuvemMask.png);
+
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    
+    mask-position: 30px;
+
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+    mask-type: luminance;
+    
+}
+
+@media screen and (max-width: 950px) {
+
+    .main, .container{
+        margin: 10px 30px 0 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+
+    .paragraph{
+        text-align: center;
+    }
+}
