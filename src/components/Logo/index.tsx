@@ -15,7 +15,7 @@ export default function Logo(
         className={styles.main}
         >
             <div className={styles.icon}></div>
-            <p>{children}</p>
+            <p className={styles.text}>{children}</p>
         </div>
     );
 }

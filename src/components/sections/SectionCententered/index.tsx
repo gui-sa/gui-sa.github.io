@@ -27,11 +27,14 @@ export default function SectionCentered(){
             <p className={styles.paragraph_3}>
                 Qualquer outro sistema que a sua jornada pedir: sou um desenvolvedor de soluções
             </p>
-            <Link target="_blank" href="https://wa.me/+5517996095939?text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20minha%20ideia%20do%20papel%21">
-                        <Button usage='cta'>
-                            Quero começar a minha jornada pelos cosmos!
-                        </Button>
-            </Link>
+            <div className={styles.button}>
+                <Link target="_blank" href="https://wa.me/+5517996095939?text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20minha%20ideia%20do%20papel%21">
+                            <Button usage='cta'>
+                                Quero começar a minha jornada pelos cosmos!
+                            </Button>
+                </Link>
+            </div>
+            <div className={styles.design}></div>
         </section>
     );
 

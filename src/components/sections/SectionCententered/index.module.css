@@ -55,6 +55,26 @@
     right: 0vw;
 }
 
+
+.design{
+    z-index: 1;
+    background-image: url(../../../../public/Gradient.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: auto;
+    aspect-ratio: 1/1;
+    position: absolute;
+}
+
+.img{
+    z-index: 2;
+}
+
+.button{
+    z-index: 3;
+}
+
 @media screen and (max-width: 1061px) {
     .paragraph_3 {
         right: -20vw;
@@ -76,5 +96,11 @@
     .img{
         width: 100%;
         height: auto;
+    }
+
+    .design{
+        width: 100%;
+        top: 300px;
+        left: 0px;
     }
 }

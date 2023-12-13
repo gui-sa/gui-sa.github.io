@@ -10,12 +10,14 @@ export default function SectionDivided(){
         <section className={styles.main}>
             <div className={styles.text}>
                 <h1 className={styles.title}>Desenvolvimento de Sites e Sistemas</h1>
-                <p className={styles.paragraph}>
-                    No vasto cosmos do mercado, assim como o universo em constante expansão, as oportunidades também se estendem além dos limites do que podemos ver.
-                </p>
-                <p className={styles.paragraph}>
-                    Posso de ajudar a construir seu projeto, produto e ideia:
-                </p>
+                <div className={styles.paragraph}>
+                    <p>
+                        No vasto cosmos do mercado, assim como o universo em constante expansão, as oportunidades também se estendem além dos limites do que podemos ver.
+                    </p>
+                    <p>
+                        Posso de ajudar a construir seu projeto, produto e ideia:
+                    </p>
+                </div>
                 <div className={styles.button}>
                     <Link target="_blank" href="https://wa.me/+5517996095939?text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20minha%20ideia%20do%20papel%21">
                         <Button usage='cta'>
