@@ -73,9 +73,15 @@
 
 @media screen and (max-width: 950px) {
 
-    .main, .container{
+    .main {
         margin: 10px 30px 0 30px;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+    .container{
+        margin: 10px 30px 0 30px;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }   
