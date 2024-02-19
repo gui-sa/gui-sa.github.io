@@ -10,7 +10,7 @@ export default function SectionCentered(){
         <section className={styles.main}>
             <h2 className={styles.title}>Em qual tipo de aventura eu consigo te ajudar</h2>
             <p className={styles.paragraph_1}>
-                Desenvolvimento de sites estáticos como Landing Pages, Portfolios e Repoitorios de arquivos
+                Desenvolvimento de sites estáticos como Landing Pages, Portfolios e Repositórios de arquivos
             </p>
             <div className={styles.img}>
                 <Image
